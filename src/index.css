@@ -69,10 +69,6 @@ body.menu-is-open header {
 
 /* artist cards */
 
-.carol-pfp {
-   image = url();
-}
-
 
 .masonry-grid {
   display: flex;
