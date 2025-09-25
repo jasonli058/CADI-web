@@ -1,13 +1,81 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply bg-white rounded shadow-md relative 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.bg-welcome{
+  position: relative;
+  background-color: white;
+}
+.bg-welcome::before{
+  background-image: url(../public/img/cadi_bg.jpg);
+  background-size: cover;
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: .7;
+}
+
+.textsd{
+  text-shadow: rgba(0, 0, 0, 0.598) 12px 1px 30px;
+}
+.textsd-white{
+  text-shadow: rgba(255, 255, 255, 0.432) 12px 1px 30px;
+}
+
+.bg-questions{
+  position: relative;
+  background-color: white;
+}
+.bg-questions::before{
+  background-image: url(../public/img/cadi_bg.jpg);
+  background-size: cover;
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: .7;
+}
+
+.nav{
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  transition: all 300ms ease-in-out;
+}
+
+.scroll-down header {
+  @apply transform -translate-y-full;
+}
+
+.scroll-up header {
+  @apply shadow-lg;
+}
+
+body.menu-is-open {
+  overflow: hidden;
+}
+
+body.menu-is-open header {
+  @apply filter-none;
+}
+
+.masonry-grid {
+  display: flex;
+  margin-left: -16px; /* gutter size offset */
+  width: auto;
+}
+
+.masonry-column {
+  padding-left: 16px;
+  background-clip: padding-box;
+}
+.masonry-column > div {
+  margin-bottom: 24px; /* space between cards */
 }
