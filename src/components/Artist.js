@@ -19,7 +19,7 @@ const Artists = () => {
           <div>
             <div className="h-[500px] mt-5 flex items-center justify-center">
               <img
-                src="./img/artworks/carol/carol_pfp.jpg"
+                src={`${process.env.PUBLIC_URL}/img/artworks/carol/carol_pfp.jpg`}
                 alt="oil-painting"
                 className="max-w-full max-h-full rounded-xl object-contain"
               />

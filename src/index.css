@@ -66,6 +66,14 @@ body.menu-is-open header {
   @apply filter-none;
 }
 
+
+/* artist cards */
+
+.carol-pfp {
+   image = url();
+}
+
+
 .masonry-grid {
   display: flex;
   margin-left: -16px; /* gutter size offset */
