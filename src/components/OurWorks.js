@@ -9,7 +9,7 @@ const OurWorks = () => {
         <div>
           <div className="h-[500px] mt-5 flex items-center justify-center">
             <img
-              src="img/artworks/jenny/jenny1.png"
+              src={`${process.env.PUBLIC_URL}/img/artworks/jenny/jenny1.png`}
               alt="oil-painting"
               className="max-w-full max-h-full rounded-xl object-contain"
             />
@@ -24,7 +24,7 @@ const OurWorks = () => {
         <div>
           <div className="h-[500px] mt-5 flex items-center justify-center">
             <img
-              src="img/artworks/carol/carol4.png"
+              src={`${process.env.PUBLIC_URL}/img/artworks/carol/carol4.png`}
               alt="oil-painting"
               className="max-w-full max-h-full rounded-xl object-contain"
             />
@@ -39,7 +39,7 @@ const OurWorks = () => {
         <div>
           <div className="h-[500px] mt-5 flex items-center justify-center">
             <img
-              src="img/artworks/eliz/eliz2.png"
+              src={`${process.env.PUBLIC_URL}/img/artworks/eliz/eliz2.png`}
               alt="oil-painting"
               className="max-w-full max-h-full rounded-xl object-contain"
             />
@@ -54,7 +54,7 @@ const OurWorks = () => {
         <div>
           <div className="h-[500px] mt-5 flex items-center justify-center">
             <img
-              src="img/artworks/emma/emma2.png"
+              src={`${process.env.PUBLIC_URL}/img/artworks/emma/emma2.png`}
               alt="oil-painting"
               className="max-w-full max-h-full rounded-xl object-contain"
             />

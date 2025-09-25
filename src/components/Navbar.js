@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between p-4 medd:mr-10 ml-8">
           <Link to="/" className="flex items-center">
             <img
-              src="/img/cadi-logo.jpg"
+              src={`${process.env.PUBLIC_URL}/img/cadi-logo.jpg`}
               alt="CADI-logo"
               className="rounded-full w-20 mr-4"
             />

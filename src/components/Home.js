@@ -33,7 +33,7 @@ const Home = () => {
             </div>
             <div className="flex justify-center pt-10 lg:pl-16 lg:pb-0 pb-24">
               <img
-                src="/img/cadi-logo.jpg"
+                src={`${process.env.PUBLIC_URL}/img/cadi-logo.jpg`}
                 alt="cadi-logo"
                 className="lg:w-96 w-2/3"
               />

@@ -4,7 +4,7 @@ const Question = () => {
       <div className="lg:text-xl lg:flex p-4 items-center lg:justify-start lg:pt-8 pr-8 ">
         <div className="flex justify-center pt-10 lg:pl-10 lg:pb-0 pb-8 lg:border-r-2 pr-8">
           <img
-            src="img/cadi-logo.jpg"
+            src={`${process.env.PUBLIC_URL}/img/cadi-logo.jpg`}
             alt="cadi-logo"
             className="lg:w-96 w-2/3"
           />
