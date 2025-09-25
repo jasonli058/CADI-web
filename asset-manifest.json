@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/CADI-web/static/css/main.5f5dc9f9.css",
-    "main.js": "/CADI-web/static/js/main.d412d381.js",
+    "main.js": "/CADI-web/static/js/main.4bf73aeb.js",
     "static/media/cadi_bg.jpg": "/CADI-web/static/media/cadi_bg.1dfc7e8cba575f9ec5d0.jpg",
     "index.html": "/CADI-web/index.html",
     "main.5f5dc9f9.css.map": "/CADI-web/static/css/main.5f5dc9f9.css.map",
-    "main.d412d381.js.map": "/CADI-web/static/js/main.d412d381.js.map"
+    "main.4bf73aeb.js.map": "/CADI-web/static/js/main.4bf73aeb.js.map"
   },
   "entrypoints": [
     "static/css/main.5f5dc9f9.css",
-    "static/js/main.d412d381.js"
+    "static/js/main.4bf73aeb.js"
   ]
 }
